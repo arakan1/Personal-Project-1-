@@ -20,8 +20,18 @@ public class TOdolistGUI extends JFrame{
         setLocationRelativeTo(null);
         setResizable(false);
         setLayout(null);
+        addButton();
         addGuiComponenet();
+        
 
+    }
+    private void addButton() {
+        JButton addButton = new JButton("Add Task");
+        addButton.setBounds(175, 800,150 , 30); 
+        addButton.addActionListener(e -> {
+            System.out.println("Button clicked!");
+        });
+        add(addButton);
     }
 
     private void addGuiComponenet()
