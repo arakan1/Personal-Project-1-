@@ -43,9 +43,6 @@ public class TOdolistGUI extends JFrame{
             CommonConstants.BANNER_SIZE.width,
             CommonConstants.BANNER_SIZE.height
     );
-
-        /**
-        do u see this ? 
         
         
     }
