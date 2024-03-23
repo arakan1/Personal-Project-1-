@@ -27,7 +27,7 @@ public class TOdolistGUI extends JFrame{
     }
     private void addButton() {
         JButton addButton = new JButton("Add Task");
-        addButton.setBounds(175, 800,150 , 30); 
+        addButton.setBounds(175, 600,150 , 30); 
         addButton.addActionListener(e -> {
             System.out.println("Button clicked!");
         });
